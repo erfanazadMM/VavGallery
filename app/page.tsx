@@ -20,7 +20,7 @@ export default function ComingSoon() {
       {/* Logo */}
       <div className="fade-up delay-1" style={{ marginBottom: "28px" }}>
         <Image
-          src="/vav-logo.png"
+          src={`${process.env.NODE_ENV === "production" ? "/VavGallery" : ""}/vav-logo.png`}
           alt="VAV logo"
           width={160}
           height={160}
