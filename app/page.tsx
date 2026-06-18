@@ -22,13 +22,9 @@ export default function ComingSoon() {
         <Image
           src="/vav-logo.png"
           alt="VAV logo"
-          width={72}
-          height={72}
-          style={{
-            borderRadius: "50%",
-            opacity: 0.9,
-            filter: "grayscale(20%)",
-          }}
+          width={160}
+          height={160}
+          style={{ display: "block" }}
           priority
         />
       </div>
@@ -144,33 +140,34 @@ export default function ComingSoon() {
         </span>
       </div>
 
-      {/* Name */}
-      <div className="fade-up delay-3" style={{ marginBottom: "14px" }}>
-        <h1
+      {/* Artist name */}
+      <div className="fade-up delay-3" style={{ marginBottom: "8px" }}>
+        <p
           style={{
-            fontSize: "clamp(3rem, 10vw, 6.5rem)",
-            fontWeight: 800,
-            letterSpacing: "-0.04em",
-            lineHeight: 1,
-            color: "#f5f0e8",
+            fontSize: "22px",
+            fontWeight: 300,
+            letterSpacing: "0.12em",
+            color: "#c9a84c",
+            fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif",
           }}
         >
-          VAV
-        </h1>
+          Morteza Saghi Shab
+        </p>
       </div>
 
-      {/* Subline */}
+      {/* Title */}
       <div className="fade-up delay-4">
         <p
           style={{
-            fontSize: "14px",
-            color: "#555",
-            letterSpacing: "0.04em",
-            lineHeight: 1.8,
+            fontSize: "12px",
+            fontWeight: 300,
+            letterSpacing: "0.22em",
+            textTransform: "uppercase",
+            color: "#8a6420",
+            fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif",
           }}
         >
-          Persian handmade wooden art & calligraphy.
-          <br />Something beautiful is on its way.
+          Wood Carving Artist
         </p>
       </div>
     </main>
