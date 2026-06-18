@@ -6,7 +6,7 @@ export default function ComingSoon() {
   return (
     <main
       style={{
-        background: "#0a0a0a",
+        background: "#080808",
         minHeight: "100vh",
         display: "flex",
         flexDirection: "column",
