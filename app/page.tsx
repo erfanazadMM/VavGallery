@@ -12,7 +12,7 @@ export default function ComingSoon() {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        padding: "40px 24px",
+        padding: "100px 24px 40px",
         textAlign: "center",
         gap: "0",
       }}
