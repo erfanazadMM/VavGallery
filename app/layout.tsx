@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
-  title: "VAV",
-  description: "Coming soon.",
+  title: "VAV Gallery",
+  description: "Persian handmade wooden art & calligraphy by Morteza Saghi Shab.",
 };
 
 export default function RootLayout({
@@ -17,6 +18,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
